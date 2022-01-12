@@ -4,10 +4,9 @@ public class Main {
         int refill = 1850;
 
         int bonus;
-        if (refill > 1000)  {
+        if (refill > 1000) {
             bonus = refill / 100;
-        }
-        else {
+        } else {
             bonus = 0;
         }
 
@@ -15,5 +14,5 @@ public class Main {
 
         System.out.println("Баланс: " + balance + " рублей. Бонус: " + bonus + " руб. ");
 
-        }
+    }
 }
